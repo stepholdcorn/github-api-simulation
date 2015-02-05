@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
-      src: ['./server.js','./views']
+      src: ['./server.js', './views', './public/javascript']
     },
     pkg: grunt.file.readJSON('package.json'),
     mocha_casperjs: {

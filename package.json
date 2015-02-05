@@ -32,6 +32,7 @@
   "dependencies": {
     "ejs": "^2.2.4",
     "express": "^4.11.2",
+    "mustache": "^1.0.0",
     "sleep": "^1.2.0"
   }
 }

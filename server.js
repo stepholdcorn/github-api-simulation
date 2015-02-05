@@ -8,7 +8,6 @@ app.use('/css', express.static(__dirname + '/public/css'));
 app.use('/javascript', express.static(__dirname + '/public/javascript'));
 
 app.get('/', function(request, response) {
-  sleep.sleep(2);
   response.header("Access-Control-Allow-Origin", "*");
   response.render('index');
 });
